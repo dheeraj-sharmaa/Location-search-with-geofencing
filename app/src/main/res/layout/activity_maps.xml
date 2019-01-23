@@ -1,0 +1,135 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="410sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="62dp"
+        tools:context=".MapsActivity" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="95sp"
+    android:background="@color/black"
+>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/black"
+        android:id="@+id/onoffline"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uplayout">
+
+
+
+
+        <TextView
+            android:id="@+id/tv_currentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="6dp"
+            android:background="@color/bg_currloc"
+            android:text="please wait while fetching your current location.."
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95sp">
+
+        <EditText
+            android:id="@+id/TF_location"
+            android:layout_width="250sp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/B_search"
+            android:background="@color/search_colour"
+            android:ems="0"
+            android:hint=" Enter Destination"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/B_search"
+            android:layout_width="115sp"
+            android:layout_height="53sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClickSearch"
+            android:text="search" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/map"
+        android:background="@color/black" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/button_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/button_proceed_bg"
+        android:backgroundTint="@color/button_proceed_bg"
+        android:backgroundTintMode="src_in"
+        android:clickable="false"
+        android:onClick="proceedbuttonclicked"
+        android:text="proceed"
+        android:textSize="24dp"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

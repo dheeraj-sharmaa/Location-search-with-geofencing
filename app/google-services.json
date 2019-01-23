@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "302866554786",
+    "firebase_url": "https://firead-f1f62.firebaseio.com",
+    "project_id": "firead-f1f62",
+    "storage_bucket": "firead-f1f62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302866554786:android:96ce06b4a7520988",
+        "android_client_info": {
+          "package_name": "com.example.hp.firead"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302866554786-h9i6gnbif68c77um76r50nladrvc0gg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbFQxCnxZhUPU5O96kZoca7etGS-3bKDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302866554786:android:9808dd00bdffaede",
+        "android_client_info": {
+          "package_name": "com.example.hp.google_maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302866554786-h9i6gnbif68c77um76r50nladrvc0gg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbFQxCnxZhUPU5O96kZoca7etGS-3bKDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

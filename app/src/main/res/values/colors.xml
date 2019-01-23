@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_currloc">#4f4747</color>
+    <color name="black">#000000</color>
+    <color name="search_colour">#dad369</color>
+    <color name="button_proceed_bg">#4b82e8</color>
+    <color name="online">#1fe704</color>
+    <color name="orange">#fa8202</color>
+    <color name="offline">#e11111</color>
+</resources>
